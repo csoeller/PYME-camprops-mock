@@ -1,0 +1,77 @@
+CSC-00425:
+  comment: a Sona entry where the noise property names are unicode strings; not sure
+    if this matters
+  model: Sona
+  name: Andor sCMOS
+  properties:
+    noiseProperties:
+      12-bit (low noise):
+        ADOffset: 100
+        ElectronsPerCount: 0.45
+        ReadNoise: 1.21
+        SaturationThreshold: 1776
+      16-bit (high dynamic range):
+        ADOffset: 100
+        ElectronsPerCount: 1.08
+        ReadNoise: 1.84
+        SaturationThreshold: 44185
+VSC-00954:
+  model: Zyla
+  name: Andor sCMOS
+  properties:
+    noiseProperties:
+      12-bit (high well capacity):
+        ADOffset: 100
+        ElectronsPerCount: 6.97
+        ReadNoise: 5.96
+        SaturationThreshold: 2047
+      12-bit (low noise):
+        ADOffset: 100
+        ElectronsPerCount: 0.28
+        ReadNoise: 1.1
+        SaturationThreshold: 2047
+      16-bit (low noise & high well capacity):
+        ADOffset: 100
+        ElectronsPerCount: 0.5
+        ReadNoise: 1.33
+        SaturationThreshold: 65535
+VSC-02698:
+  model: Zyla
+  name: Andor sCMOS
+  properties:
+    noiseProperties:
+      12-bit (high well capacity):
+        ADOffset: 100
+        ElectronsPerCount: 7.38
+        ReadNoise: 6.64
+        SaturationThreshold: 2047
+      12-bit (low noise):
+        ADOffset: 100
+        ElectronsPerCount: 0.26
+        ReadNoise: 1.16
+        SaturationThreshold: 2047
+      16-bit (low noise & high well capacity):
+        ADOffset: 100
+        ElectronsPerCount: 0.49
+        ReadNoise: 1.36
+        SaturationThreshold: 65535
+VSC-02858:
+  model: Zyla
+  name: Andor sCMOS
+  properties:
+    noiseProperties:
+      12-bit (high well capacity):
+        ADOffset: 100
+        ElectronsPerCount: 7.2
+        ReadNoise: 6.18
+        SaturationThreshold: 2047
+      12-bit (low noise):
+        ADOffset: 100
+        ElectronsPerCount: 0.3
+        ReadNoise: 1.19
+        SaturationThreshold: 2047
+      16-bit (low noise & high well capacity):
+        ADOffset: 100
+        ElectronsPerCount: 0.5
+        ReadNoise: 1.42
+        SaturationThreshold: 65535
