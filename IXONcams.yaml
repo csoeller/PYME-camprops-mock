@@ -1,48 +1,40 @@
 1823:
-  model: unknown
-  name: Andor IXON
-  properties:
-    noiseProperties:
+  model: Andor IXON emCCD
+  noiseProperties:
+    EM preamp mode 0:
       ADOffset: 971
       DefaultEMGain: 150
       ElectronsPerCount: 27.32
       NGainStages: 536
       ReadNoise: 109.8
       SaturationThreshold: 16383
-    preampGain: 0
 5414:
-  model: unknown
-  name: Andor IXON
-  properties:
-    noiseProperties:
+  model: Andor IXON emCCD
+  noiseProperties:
+    EM preamp mode 0:
       ADOffset: 413
       DefaultEMGain: 90
       ElectronsPerCount: 25.24
       NGainStages: 536
       ReadNoise: 61.33
       SaturationThreshold: 16383
-    preampGain: 0
 7546:
-  model: unknown
-  name: Andor IXON
-  properties:
-    noiseProperties:
+  model: Andor IXON emCCD
+  noiseProperties:
+    EM preamp mode 2:
       ADOffset: 150
       DefaultEMGain: 85
       ElectronsPerCount: 4.82
       NGainStages: 536
       ReadNoise: 85.23
       SaturationThreshold: 65535
-    preampGain: 2
 7863:
-  model: unknown
-  name: Andor IXON
-  properties:
-    noiseProperties:
+  model: Andor IXON emCCD
+  noiseProperties:
+    EM preamp mode 2:
       ADOffset: 203
       DefaultEMGain: 90
       ElectronsPerCount: 4.99
       NGainStages: 536
       ReadNoise: 88.1
       SaturationThreshold: 54000.0
-    preampGain: 2
